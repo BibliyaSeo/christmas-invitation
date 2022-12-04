@@ -1,12 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PlaceChristmas from "../components/animations/PlaceChristmas";
 
 export default function Place() {
+  const navigate = useNavigate();
   const url = "https://naver.me/GI6VY6jY";
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-black">
       <div className="flex flex-col">
+        <div>
+          <button onClick={() => navigate(-1)} className="text-gray-800 christmas-font">
+            Back
+          </button>
+        </div>
         <div className="max-w-[380px]">
           <PlaceChristmas />
         </div>

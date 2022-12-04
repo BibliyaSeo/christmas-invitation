@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import BlackChristmasTree from "../components/animations/BlackChristmasTree";
 
 export default function Plan() {
+  const navigate = useNavigate();
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-black">
       <div className="flex flex-col">
