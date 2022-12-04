@@ -8,11 +8,6 @@ export default function Place() {
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-black">
       <div className="flex flex-col">
-        <div>
-          <button onClick={() => navigate(-1)} className="text-gray-800 christmas-font">
-            Back
-          </button>
-        </div>
         <div className="max-w-[380px]">
           <PlaceChristmas />
         </div>
