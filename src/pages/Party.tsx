@@ -12,7 +12,7 @@ export default function Party() {
         </div>
         <div className="text-white text-center">
           <div className="text-xl christmas-font">Welcome to Chirstmas Party!</div>
-          <div className="text-xl christmas-font">with SK, JM, HM, JH, DS, HS</div>
+          {/* <div className="text-xl christmas-font"></div> */}
         </div>
         <div className="space-x-4 flex justify-center py-10">
           <button
